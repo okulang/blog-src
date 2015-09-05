@@ -6,8 +6,10 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+.redo/
 .Python
 env/
+.*env/
 build/
 develop-eggs/
 dist/
