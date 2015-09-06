@@ -1,0 +1,96 @@
+@font-face {
+  font-family: GentiumPlus;
+  font-style: normal;
+  src: url('GentiumPlus-R.woff') format('woff'),
+       url('GentiumPlus-R.ttf') format('truetype');
+}
+@font-face {
+  font-family: GentiumPlus;
+  font-style: italic;
+  src: url('GentiumPlus-I.woff') format('woff'),
+       url('GentiumPlus-I.ttf') format('truetype');
+}
+
+
+/* remove bold styling from heading */
+h1 {
+  font-weight: normal;	
+}
+
+body {
+	background-color: black;
+}
+.background {
+	margin: auto;
+	
+	background: #000 url("arboreum.gif") no-repeat scroll 0 0 / 100% auto;
+	color: #ddd;
+
+	padding-top: 3.6vh;
+	padding-bottom: 3.6vh;
+}
+.content {
+	padding: 1em;
+
+	border-radius: 12px;
+	border: 2px solid black;
+	
+	font-family: GentiumPlus, sans-serif;
+	background-color: rgba(0,0,0,0.7);
+}
+@media (min-width: 0px) {
+	.background {
+		width: 84vw;
+		padding-left: 3vw;
+		padding-right: 3vw;
+		font-size: 12pt;
+	}
+}
+@media (min-width: 480px) {
+	.background {
+		width: 74vw;
+		font-size: 14pt;
+	}
+}
+@media (min-width: 768px) {
+	.background {
+		width: 64vw;
+		font-size: 14pt;
+	}	
+}
+@media (min-width: 992px) {
+	.background {
+		width: 56vw;
+		padding-left: 2vw;
+		padding-right: 2vw;
+		font-size: 16pt;
+	}
+}
+@media (min-width: 1200px) {
+	.background {
+		width: 46vw;
+		font-size: 16pt;
+	}
+}
+
+
+.post-info,
+.post-info a:link {
+	font-size: 10pt;
+	color: #aaa;
+	text-decoration: none;
+}
+
+.abstract {
+	font-size: 80%;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0));
+}
+
+.post-text {
+	text-align: justify;
+}
