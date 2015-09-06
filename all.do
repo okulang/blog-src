@@ -1,1 +1,1 @@
-redo-ifchange site/foo.html
+redo-ifchange site/posts/{foo,bar}.html

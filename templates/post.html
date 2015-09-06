@@ -1,0 +1,21 @@
+<%inherit file="base.html"/>
+<div class="content">
+    % if 'title' in config:
+    <h1>${config['title']}</h1>
+    
+    % if 'abstract' in config:
+    <div class="abstract">
+        ${config['abstract']}
+    </div>
+    % endif
+    
+    <div class="post-info">
+        2015-05-19 in <a href="tags/test">test</a>, <a href="tags/test">page</a>
+    </div>
+    <hr>
+    % endif
+    
+    <div class='post-text'>
+        ${content}
+    </div>
+</div>
