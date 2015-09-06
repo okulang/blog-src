@@ -1,5 +1,5 @@
-mkdir -p dist
-cp -r static/* dist/
+mkdir -pv dist
+cp -rv static/* dist/
 redo-always all
-cp site/*.html dist/
-cp site/posts/*.html dist/
+mv -v site/*.html dist/
+mv -v site/posts/*.html dist/

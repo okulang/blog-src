@@ -1,7 +1,7 @@
 <%inherit file="base.html"/>
 <div class="content">
     % if 'title' in config:
-    <h1>${config['title']}</h1>
+    <h2>${config['title']}</h2>
     
     % if 'abstract' in config:
     <div class="abstract">
@@ -10,10 +10,26 @@
     % endif
     
     <div class="post-info">
-        2015-05-19 in <a href="tags/test">test</a>, <a href="tags/test">page</a>
+        ${config['date']} in <a href="tags/test">TODO</a>, <a href="tags/test">TODO</a>
+    </div>
+    % endif
+
+    <div class="post-nav">
+        % if 'last' in config:
+        <a href="${config['last']}">«prev</a>
+        % else:
+        <a class='nolink'>«prev</a>
+        % endif
+        <span class=strut></span>
+        <a href="archive.html">archive</a>
+        <span class=strut></span>
+        % if 'next' in config:
+        <a href="${config['next']}">next»</a>
+        % else:
+        <a class='nolink'>next»</a>
+        % endif
     </div>
     <hr>
-    % endif
     
     <div class='post-text'>
         ${content}

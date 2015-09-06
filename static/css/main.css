@@ -1,3 +1,4 @@
+/* Fonts */
 @font-face {
   font-family: GentiumPlus;
   font-style: normal;
@@ -11,31 +12,52 @@
        url('GentiumPlus-I.ttf') format('truetype');
 }
 
-
-/* remove bold styling from heading */
-h1 {
-  font-weight: normal;	
-}
-
+/* Page background */
 body {
 	background-color: black;
+	font-family: GentiumPlus, sans-serif;
+	color: #ddd;
 }
 .background {
 	margin: auto;
 	
 	background: #000 url("arboreum.gif") no-repeat scroll 0 0 / 100% auto;
-	color: #ddd;
 
 	padding-top: 3.6vh;
 	padding-bottom: 3.6vh;
 }
+
+/* Header */
+
+.topbar {
+	text-align: center;
+	background-image: linear-gradient(to bottom,
+		rgba(0,32,0, 0.37),
+		rgba(0,0,0, 0.65),
+		rgba(0,0,0, 0.7));
+	border-radius: 12px;
+	border: 2px solid black;
+	
+	margin-left: -0.3vw;
+	margin-right: -0.3vw;
+	padding-bottom: 1vh;
+	margin-bottom: 2.6vh;
+}
+.topbar h1 {
+	margin: 0px;
+}
+.topbar .signon {
+	font-size: 70%;
+}
+
+/* Content structure */
+
 .content {
 	padding: 1em;
 
 	border-radius: 12px;
 	border: 2px solid black;
 	
-	font-family: GentiumPlus, sans-serif;
 	background-color: rgba(0,0,0,0.7);
 }
 @media (min-width: 0px) {
@@ -73,24 +95,59 @@ body {
 	}
 }
 
+.content h2 {
+	margin-top: 0px;
+}
 
-.post-info,
-.post-info a:link {
+/* Bits of goodness */
+
+.post-info {
 	font-size: 10pt;
 	color: #aaa;
-	text-decoration: none;
+}
+
+.post-nav {
+	font-size: 12pt;
+	text-align: center;
+}
+.post-nav a.nolink {
+	color: #aaa;
+}
+@media (min-width: 480px) {
+	.post-nav {
+		font-size: 14pt;
+	}
+}
+.post-nav .strut {
+	display: inline-block;
+	width: 20%;
 }
 
 .abstract {
-	font-size: 80%;
 }
 
 hr {
 	border: 0;
 	height: 1px;
-	background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0));
+	background-image: linear-gradient(to right,
+		rgba(255,255,255,0),
+		rgba(255,255,255,0.75),
+		rgba(255,255,255,0));
 }
 
 .post-text {
 	text-align: justify;
+}
+
+/* Fixes */
+
+h1 {
+	font-weight: normal;	
+}
+
+.topbar a,
+.post-nav a,
+.post-info a {
+	color: inherit;
+	text-decoration: none;
 }

@@ -1,0 +1,28 @@
+README
+	tour the structure
+tools
+	new post
+
+header
+	click top to go home
+	home has links to everything
+
+navigation
+	sidebar on large screens
+
+pages
+	index
+	archive
+	links
+	per-conlang
+	about
+
+whenever posts/publish file changes,
+	edit archives
+	edit main page
+
+tags
+	user tags
+	auto tags (search content for keywords)
+	lists of posts by tag
+

@@ -21,6 +21,7 @@ else:
 template_lookup = TemplateLookup(
   directories=[template_dir],
   module_directory='/tmp/mako_modules',
+  input_encoding='utf-8',
   output_encoding='utf-8')
 template = template_lookup.get_template(template_name)
 
