@@ -30,11 +30,11 @@ if [ ! -d .redo ] ; then
 fi
 
 # Install my commands and libraries
-cp -v mako .env/bin/; chmod +x .env/bin/mako
-cp -v setconfig.py .env/bin/setconfig; chmod +x .env/bin/setconfig
-cp -v setconfig.py .env/lib/python3.*/site-packages/
-cp -v publish.py .env/bin/publish; chmod +x .env/bin/publish
-cp -v mako-posts.py .env/bin/mako-posts; chmod +x .env/bin/mako-posts
+cp -v tools/mako.py .env/bin/; chmod +x .env/bin/mako
+cp -v tools/setconfig.py .env/bin/setconfig; chmod +x .env/bin/setconfig
+cp -v tools/setconfig.py .env/lib/python3.*/site-packages/
+cp -v tools/publish.py .env/bin/publish; chmod +x .env/bin/publish
+cp -v tools/mako-posts.py .env/bin/mako-posts; chmod +x .env/bin/mako-posts
 
 # Shut down the virtualenvs
 deactivate_hsenv
