@@ -10,17 +10,22 @@
     <language>en-us</language>
     <atom:link href="http://okulang.github.com/okulang.rss" rel="self" type="application/rss+xml" />
     % for post in posts:
-      <item>
-        <title>${post['title']}</title>
-        <link>${post['link']}</link>
-        <pubDate>${post['date']}</pubDate>
-        <description><![CDATA[${post['description']}]]></description>
-        ## TODO tags
-        <content:encoded><![CDATA[
-          ${post['content']}
-        ]]></content:encoded>
-        <guid>${post['link']}</guid>
-      </item>
+    
+    <item>
+      <title>${post['title']}</title>
+      <link>http://okulang.github.io/${post['postname']}.html</link>
+      <pubDate>${post['date']}</pubDate>
+      <description><![CDATA[${post.get('abstract', '')}]]></description>
+      ## TODO tags
+      <content:encoded><![CDATA[
+        <%
+          with open(post['contentfile'], 'r') as content:
+            content = content.read()
+        %>
+        ${content}
+      ]]></content:encoded>
+      <guid>http://okulang.github.io/${post['postname']}.html</guid>
+    </item>
     % endfor
   </channel>
 </rss>

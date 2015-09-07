@@ -1,2 +1,4 @@
+redo-ifchange posts/*.in
+redo-ifchange posts/*.config
 redo-ifchange posts/publish
-mkrss posts
+mako-posts okulang.rss posts
