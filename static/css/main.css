@@ -41,7 +41,6 @@ body {
 	margin-left: -0.3vw;
 	margin-right: -0.3vw;
 	padding-bottom: 1vh;
-	margin-bottom: 2.6vh;
 }
 .topbar h1 {
 	margin: 0px;
@@ -54,6 +53,8 @@ body {
 
 .content {
 	padding: 1em;
+	margin-top: 2.6vh;
+	margin-bottom: 2.6vh;
 
 	border-radius: 12px;
 	border: 2px solid black;
@@ -145,9 +146,17 @@ h1 {
 	font-weight: normal;	
 }
 
-.topbar a,
-.post-nav a,
-.post-info a {
+
+a:link,
+a:visited {
 	color: inherit;
 	text-decoration: none;
+}
+p a:link,
+p a:visited {
+	color: #66f;
+}
+a:hover,
+p a:hover {
+	color: #8ae;
 }

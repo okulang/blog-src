@@ -5,18 +5,15 @@ tools
 
 navigation
 	sidebar on large screens
-	home has links to everything
 
 pages
 	archive
 	links
 	per-conlang
-	index
 	about
 
 whenever posts/publish file changes,
 	edit archives
-	edit main page
 
 tags
 	user tags

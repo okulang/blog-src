@@ -1,38 +1,4 @@
 <%inherit file="base.html"/>
 <div class="content">
-    % if 'title' in config:
-    <h2>${config['title']}</h2>
-    
-    % if 'abstract' in config:
-    <div class="abstract">
-        ${config['abstract']}
-    </div>
-    % endif
-    
-    <div class="post-info">
-        ${config['date']}</a>
-        ## TODO tags
-    </div>
-    % endif
-
-    <div class="post-nav">
-        % if 'last' in config:
-        <a href="${config['last']}">«prev</a>
-        % else:
-        <a class='nolink'>«prev</a>
-        % endif
-        <span class=strut></span>
-        <a href="archive.html">archive</a>
-        <span class=strut></span>
-        % if 'next' in config:
-        <a href="${config['next']}">next»</a>
-        % else:
-        <a class='nolink'>next»</a>
-        % endif
-    </div>
-    <hr>
-    
-    <div class='post-text'>
-        ${content}
-    </div>
+  <%include file="post-body.html"/>
 </div>
