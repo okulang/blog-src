@@ -1,0 +1,20 @@
+<%inherit file="base.html"/>
+<div class="content">
+    <h1>${config['title']}</h1>
+
+    % for post in posts:
+    <hr/>
+    <div class="post-summary">
+        <h2><a href="${post['postname']}.html">${post['title']}</a></h2>
+        <div class='post-info'>
+            ${post['date']}
+            ## TODO tags
+        </div>
+        % if 'abstract' in post:
+        <div class="abstract">
+            ${post['abstract']}
+        </div>
+        % endif
+    </div>
+    % endfor
+</div>

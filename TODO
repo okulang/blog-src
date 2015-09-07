@@ -7,13 +7,9 @@ navigation
 	sidebar on large screens
 
 pages
-	archive
 	links
 	per-conlang
 	about
-
-whenever posts/publish file changes,
-	edit archives
 
 tags
 	user tags
