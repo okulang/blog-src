@@ -2,17 +2,7 @@
 <div class="content">
     % if 'title' in config:
     <h1>${config['title']}</h1>
-
-    % if 'abstract' in config:
-    <div class="abstract">
-        ${config['abstract']}
-    </div>
     % endif
 
-    <hr>
-    % endif
-
-    <div class='post-text'>
-        ${content}
-    </div>
+    ${content}
 </div>
