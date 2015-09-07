@@ -3,18 +3,15 @@ README
 tools
 	new post
 
-header
-	click top to go home
-	home has links to everything
-
 navigation
 	sidebar on large screens
+	home has links to everything
 
 pages
-	index
 	archive
 	links
 	per-conlang
+	index
 	about
 
 whenever posts/publish file changes,

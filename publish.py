@@ -2,7 +2,7 @@
 import sys, os
 from os import path
 from setconfig import setconfig
-from datetime import date
+from datetime import datetime
 
 def thefiles(filepath):
   dirpath, filename = path.split(filepath)
@@ -16,7 +16,8 @@ def update(dirpath, filename, lastname, pubpath):
   if lastname is not None:
     setconfig(path.join(dirpath, lastname+'.config'), 'next', filename+'.html')
     setconfig(path.join(dirpath, filename+'.config'), 'last', lastname+'.html')
-  setconfig(path.join(dirpath, filename+'.config'), 'date', date.today().isoformat())
+  pubdate = datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
+  setconfig(path.join(dirpath, filename+'.config'), 'date', pubdate)
   with open(pubpath, 'a') as f:
     f.write(filename + '\n')
 	

@@ -5,3 +5,4 @@ for POST in `cat site/posts/publish`; do
 done;
 
 redo-ifchange site/index.html
+redo-ifchange site/okulang.rss

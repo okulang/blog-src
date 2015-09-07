@@ -34,6 +34,7 @@ cp -v mako .env/bin/; chmod +x .env/bin/mako
 cp -v setconfig.py .env/bin/setconfig; chmod +x .env/bin/setconfig
 cp -v setconfig.py .env/lib/python3.*/site-packages/
 cp -v publish.py .env/bin/publish; chmod +x .env/bin/publish
+cp -v mkrss.py .env/bin/mkrss; chmod +x .env/bin/mkrss
 
 # Shut down the virtualenvs
 deactivate_hsenv
