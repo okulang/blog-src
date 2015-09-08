@@ -1,7 +1,7 @@
-README
-	tour the structure
 tools
 	new post
+	render page from markdown body
+	fixup typography (orphans, quote directions)
 
 navigation
 	sidebar on large screens
@@ -15,3 +15,8 @@ tags
 	auto tags (search content for keywords)
 	lists of posts by tag
 
+RENAME
+	${config} --> ${meta}
+	.in --> .html.frag
+	setconfig --> pyon
+	mako <template> <content> <pyon>

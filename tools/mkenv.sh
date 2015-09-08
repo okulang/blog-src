@@ -30,7 +30,7 @@ if [ ! -d .redo ] ; then
 fi
 
 # Install my commands and libraries
-cp -v tools/mako.py .env/bin/; chmod +x .env/bin/mako
+cp -v tools/mako.py .env/bin/mako; chmod +x .env/bin/mako
 cp -v tools/setconfig.py .env/bin/setconfig; chmod +x .env/bin/setconfig
 cp -v tools/setconfig.py .env/lib/python3.*/site-packages/
 cp -v tools/publish.py .env/bin/publish; chmod +x .env/bin/publish

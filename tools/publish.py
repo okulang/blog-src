@@ -14,10 +14,10 @@ def thefiles(filepath):
 	
 def update(dirpath, filename, lastname, pubpath):
   if lastname is not None:
-    setconfig(path.join(dirpath, lastname+'.config'), 'next', filename+'.html')
-    setconfig(path.join(dirpath, filename+'.config'), 'last', lastname+'.html')
+    setconfig(path.join(dirpath, lastname+'.pyon'), 'next', filename+'.html')
+    setconfig(path.join(dirpath, filename+'.pyon'), 'last', lastname+'.html')
   pubdate = datetime.utcnow().strftime("%a, %d %b %Y %H:%M:%S +0000")
-  setconfig(path.join(dirpath, filename+'.config'), 'date', pubdate)
+  setconfig(path.join(dirpath, filename+'.pyon'), 'date', pubdate)
   with open(pubpath, 'a') as f:
     f.write(filename + '\n')
 	

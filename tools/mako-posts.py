@@ -22,7 +22,7 @@ pub.reverse()
 
 posts = []
 for post in pub:
-  with open(path.join(postsdir, post+".config")) as f:
+  with open(path.join(postsdir, post+".pyon")) as f:
     postdata = ast.literal_eval(f.read())
   postdata['postname'] = post
   postdata['contentfile'] = path.join(postsdir, post+".in")
