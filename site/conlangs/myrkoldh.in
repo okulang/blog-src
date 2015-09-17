@@ -1,0 +1,29 @@
+<h3>Features</h3>
+<p>
+I managed to get the consonant inventory up to what <a href="http://wals.info/chapter/1" target=_blank>WALS</a> calls "large", which is 34 or more consonant phonemes.
+What's more interesting is that I managed it without adding any (central) approximants.
+However, there are two laterals /lˠ, l̻ʲ/ and two trills /r̝ʲ, r̠ˠ/.
+The trills might need some explanation: /r̝ʲ/ is a fricative trill with the tongue tip just behind the teeth with the dorsum raised to the palate, and /r̠ˠ/ is a regular postalveolar trill with the dorsum raised to the velar ridge.
+</p>
+
+<p>
+The phonotactics are still under construction, but I expect them to be quite permissive, with up to two consonants in the onset and coda, and even allowing for consonant nuclei.
+One thing I finally did was restrict the velar continuants /ŋ, ŋʲ, x, ɣ/ to the coda.
+Ussualy, I'm really bad about just letting these consonants fall where they may.
+I've also made a conscious decision to strictly follow the sonority hierarchy and work within those restrictions.
+</p>
+
+<p>
+The morphophonology will exhibit polyconsonantal roots: roots specified by two, three or occaisionally four consonants, with vowels are filled in by inflection.
+Historically, the vowels in these words would have been subjected to vowel harmony, and as the harmony solidified and became unproductive, it left these fossil traces in the inflection system.
+Ideally, this feature will also guide me to particularly mellifluous word shapes, even if my consonant clusters go bonkers.
+</p>
+
+<h3>Inspirations</h3>
+<ul>
+	<li><a href="https://en.wikipedia.org/wiki/Old_Norse" target=_blank>Old Norse</a> - general feel</li>
+	<li><a href="https://en.wikipedia.org/wiki/Irish_language" target=_blank>Irish</a> - broad/slender distinction</li>
+	<li><a href="https://en.wikipedia.org/wiki/Old_English" target=_blank>Old English</a> - use of velar sounds, fun clusters like onset /kn/</li>
+	<li><a href="https://en.wikipedia.org/wiki/Basque_language" target=_blank>Basque</a> - dental vs. alveolar distinction in stops</li>
+	<li><a href="https://en.wikipedia.org/wiki/Mari_language" target=_blank>Mari</a>? it seems like I should steal some grammar</li>
+</ul>

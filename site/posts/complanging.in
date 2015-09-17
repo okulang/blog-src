@@ -1,0 +1,66 @@
+<p>
+There are definitely differences between languages for humans and for computers.
+With human conlangs, its not too hard to make a good language, but it's often very difficult to describe what's going on.
+When complanging, it's fairly easy to give a description, but it's very difficult to make a good language.
+This is about where the differences end and the similarities begin.
+</p>
+
+<p>
+Let me breifly describe the process by which a computer language is constructed:
+<ol>
+  <li>Have a goal (e.g. I want to model GPU parallelism).</li>
+  <li>Create a syntax (this is roughly the equivalent of a phonology).</li>
+  <li>Create a semantics (answers questions like: "what happens when I say this?" and "are these programs the same?")</li>
+  <li>Optionally make up primitives (each primitive is roughly like an entry in a lexicon)</li>
+  <li>Show off (e.g. write cool programs, prove the language's type system is sound)</li>
+  <li>Implement the language (i.e. teach computers to use it)</li>
+</ol>
+As you can see, complanging follows essentially the same process as humanlanging.
+On the other hand, perhaps you brain has been stimulated into seeing some other apparent differences.
+</p>
+
+<p>
+For example, computer languages are designed to be small, clear, elegant, regular, whereas human languages can be designed for any reason.
+In fact, there's a class of so-called esoteric languages which are designed primarily to be humorous, unclear, or just plain weird.
+The funniest conlangs I've seen are computer languages, and so are the most complicated.
+</p>
+
+<p>
+You might think that the lack of phonology in computer languages makes them qualitatively different.
+Actually, human languages include sign languages and even a gripping language, so human languages can lack phonology.
+Though I don't know of any, I could easily imagine a sound-based computer language;
+in fact, there's already a computer language designed to look like paintings by Piet Mondrian.
+</p>
+
+<p>
+It's true that there are some trends that differ.
+Most computer languages are a posteriori englangs designed to be small, clear, and simple.
+That's where the work happens to be.
+Of course, a difference in these trends is a difference in the community, not in the nature of the languages.
+</p>
+
+<p>
+Just to drive the point home, let's consider one last possible difference.
+Perhaps it's that computers don't work with computer languages directly, they just follow the instructions.
+Actually, optimizing compilers will analyze the meaning of your code and rewrite it to be more efficient, while keeping the meaning the same.
+Virus scanners will read through code to find malware, and then censor it.
+There are even a class of programs that write other programs from scratch: it's a technique called genetic programming, and it can produce amazing results.
+There you have it: computers working with computer languages not just by running them, but also by reading, writing, and, in a sense, understanding the source code directly.
+</p>
+
+<p>
+Complanging and humanlanging share the same creative process, the same mechanisms, the same range of expression, even the same theory sometimes.
+The two might even be as "far" apart as fiction and non-fiction; so what? I'm still reading books.
+Yet, complangs seem to get a bad rap among conlangers.
+I'm guilty of this myself: you don't see my complangs posted here, not yet anyway.
+The more I think about it, the less satisfied I am with this state of affairs.
+If we stop repeating the common "wisdom" that computer languages are not linguistic, we might just find ourselves with a richer community.
+</p>
+
+<p>
+As computer languages get better, they slowly start to seem less like recipies and more like communication to me.
+Perhaps conlangers have something to contribute here to advance the state of the art in complanging.
+Sure, it would require learning the jargon of programming languages, but you all learned linguistics, so it's not all that unrealistic that someone might come along and give it a shot.
+Or perhaps it would be more fun to build a computer-like language for humans; what could that be like?
+Heh, well it would undoubtedly give the Cybermen better catchphrases!
+</p>
