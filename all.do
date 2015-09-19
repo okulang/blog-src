@@ -5,5 +5,5 @@ for POST in `cat site/posts/publish`; do
 done;
 
 redo-ifchange site/{index,archive,conlangs,resources,about}.html
-redo-ifchange site/conlangs/myrkoldh.html
+redo-ifchange site/conlangs/{iskki,myrkoldh}.html
 redo-ifchange site/okulang.rss
